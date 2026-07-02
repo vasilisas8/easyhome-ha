@@ -1,0 +1,16 @@
+{
+  "domain": "easyhome",
+  "name": "EasyHome",
+  "codeowners": [
+    "@vasilisas8"
+  ],
+  "config_flow": true,
+  "subentry": true,
+  "options_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/vasilisas8/easyhome",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "requirements": ["pymodbus>=3.6.0"],
+  "version": "0.1.0"
+}
